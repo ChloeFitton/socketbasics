@@ -45,7 +45,7 @@ io.on('connection', function (socket) {
 			io.to(userData.room).emit('message', {
 				name: 'System',
 				text: userData.name + ' has left!',
-				timestamp: moment.valueOf()
+				timestamp: moment().valueOf()
 			});
 			delete clientInfo[socket.id];
 		}		

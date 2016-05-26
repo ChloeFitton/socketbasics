@@ -7,8 +7,18 @@
 
 h1 {
 	margin: 24px 0;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 .messages p {
 	margin: 6px 0;
+}
+
+body {
+	background-image: url(http://static1.squarespace.com/static/54e50970e4b0a15ac733f301/t/5534551ae4b0b404bf38cc1c/1429493022113/);
+	background-size: cover;
+
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-style: bold;
+
 }
